@@ -13,7 +13,7 @@ spec:
         app: simple-app
     spec:
       containers:
-        - image: registry.digitalocean.com/do-challenge-registry/simple-webapp:0.1
+        - image: registry.digitalocean.com/do-challenge-registry/simple-webapp:0.2
           name: simple-app
           ports:
             - containerPort: 8080
